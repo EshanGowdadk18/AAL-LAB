@@ -34,12 +34,11 @@ int main() {
 
     printf("Enter the text: ");
     fgets(text, sizeof(text), stdin);
-    removeNewline(text);  // Remove trailing newline
+    removeNewline(text);  
 
     printf("Enter the pattern: ");
     fgets(pattern, sizeof(pattern), stdin);
-    removeNewline(pattern);  // Remove trailing newline
-
+    removeNewline(pattern);  
     bruteForceMatch(text, pattern);
 
     return 0;
