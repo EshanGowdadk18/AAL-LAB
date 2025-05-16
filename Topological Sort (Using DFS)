@@ -72,3 +72,17 @@ int main() {
 
     return 0;
 }
+input
+Enter number of vertices: 6
+Enter number of edges: 6
+Enter edges (source destination):
+5 2
+5 0
+4 0
+4 1
+2 3
+3 1
+
+output
+Topological Sort (DFS-based):
+4 5 2 3 1 0
