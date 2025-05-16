@@ -43,3 +43,11 @@ int main() {
 
     return 0;
 }
+sample input
+Enter the text: this is a simple example
+Enter the pattern: simple
+
+output
+Pattern found at index 10
+
+
