@@ -31,6 +31,11 @@ int main() {
     printArray(arr, n);
     return 0;
 }
+input array
+{64, 25, 12, 22, 11}
+output
+11 12 22 25 64
+
 
 
 
@@ -64,3 +69,7 @@ int main() {
     printArray(arr, n);
     return 0;
 }
+input array
+{64, 25, 12, 22, 11}
+output
+11 12 22 25 64
